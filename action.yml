@@ -1,0 +1,6 @@
+name: "print function"
+description: "print hello world"
+runs:
+  using: composite
+  steps:
+    - run: echo "hello world"
